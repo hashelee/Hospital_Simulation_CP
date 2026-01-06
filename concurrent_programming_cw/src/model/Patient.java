@@ -5,7 +5,7 @@ import enums.Speciality;
 public class Patient {
     private final int patientId;
     private final Speciality speciality;
-    private final long arrivalTime;
+    private final double arrivalTime;
 
     public Patient(int patientId, Speciality speciality) {
         this.patientId = patientId;
@@ -21,7 +21,7 @@ public class Patient {
         return speciality;
     }
 
-    public long getArrivalTime() {
+    public double getArrivalTime() {
         return arrivalTime;
     }
 }
