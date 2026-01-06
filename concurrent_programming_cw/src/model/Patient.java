@@ -1,3 +1,5 @@
+package model;
+
 import enums.Speciality;
 
 public class Patient {
